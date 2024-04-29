@@ -37,9 +37,9 @@
   background: #dc780b;
 }
 .buttons .btn2 {
-  color: #dc780b;
-  background: #fff;
-  border: 1.5px solid #dc780b;
+  color: #dc780b !important;
+  background: #fff !important;
+  border: 1.5px solid #dc780b !important;
 }
 .buttons .btn1:hover {
   color: #dc780b;
@@ -47,6 +47,6 @@
   border: 1.5px solid #dc780b;
 }
 .hero_texts .btn2:hover {
-  background: #dc780b;
-  color: #fff;
+  background: #dc780b !important;
+  color: #fff !important;
 }

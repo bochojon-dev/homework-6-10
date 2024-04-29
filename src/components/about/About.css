@@ -1,0 +1,16 @@
+.about_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 115px;
+}
+.about_texts {
+  width: 487px;
+}
+.about_texts h3 {
+  font-size: 31px;
+  font-weight: 700;
+}
+.about_texts button {
+  margin-top: 30px;
+}
