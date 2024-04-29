@@ -1,0 +1,26 @@
+.menu_contents {
+  text-align: center;
+}
+.menu_contents h2 {
+  padding: 10px 0 25px;
+}
+.menu_contents .description {
+  width: 748px;
+  margin: 0 auto;
+}
+.menu_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px 0 50px;
+  gap: 30px;
+}
+.menu_card {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  text-align: start;
+  border-radius: 75px 10px 10px 10px;
+  border: 1px solid #0000001a;
+}

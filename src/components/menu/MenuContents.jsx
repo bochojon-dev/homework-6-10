@@ -1,5 +1,12 @@
 import React, { Component } from "react";
 import "../menu/MenuContents.css";
+import rating from "../../assets/rating.svg";
+import card1 from "../../assets/card1.png";
+import card2 from "../../assets/card2.png";
+import card3 from "../../assets/card3.png";
+import card4 from "../../assets/card4.png";
+import card5 from "../../assets/card5.png";
+import card6 from "../../assets/card6.png";
 
 export class MenuContents extends Component {
   render() {
@@ -9,7 +16,7 @@ export class MenuContents extends Component {
           <div className="menu_contents">
             <h4>MENU</h4>
             <h2>Food Full of treaty Love</h2>
-            <p>
+            <p className="description">
               There are many things are needed to start the Fast Food Business.
               You need not only Just Food Stalls with Persons but also
               specialized equipment, Skills to manage Customers.{" "}
@@ -32,7 +39,93 @@ export class MenuContents extends Component {
                   <img src={rating} alt="rate" />
                 </div>
               </div>
+              <div className="menu_card">
+                <img src={card2} alt="card img" />
+                <div className="title">
+                  <h3>Salads</h3>
+                  <h3>12$</h3>
+                </div>
+                <p>
+                  There are many things are needed to start the Fast Food
+                  Business.
+                </p>
+                <div className="rate">
+                  <div className="add">
+                    <p>+</p>
+                  </div>
+                  <img src={rating} alt="rate" />
+                </div>
+              </div>
+              <div className="menu_card">
+                <img src={card3} alt="card img" />
+                <div className="title">
+                  <h3>Burger</h3>
+                  <h3>10$</h3>
+                </div>
+                <p>
+                  There are many things are needed to start the Fast Food
+                  Business.
+                </p>
+                <div className="rate">
+                  <div className="add">
+                    <p>+</p>
+                  </div>
+                  <img src={rating} alt="rate" />
+                </div>
+              </div>
+              <div className="menu_card">
+                <img src={card4} alt="card img" />
+                <div className="title">
+                  <h3>Delmonico Steak dish</h3>
+                  <h3>14$</h3>
+                </div>
+                <p>
+                  There are many things are needed to start the Fast Food
+                  Business.
+                </p>
+                <div className="rate">
+                  <div className="add">
+                    <p>+</p>
+                  </div>
+                  <img src={rating} alt="rate" />
+                </div>
+              </div>
+              <div className="menu_card">
+                <img src={card5} alt="card img" />
+                <div className="title">
+                  <h3>Egg Masala</h3>
+                  <h3>9$</h3>
+                </div>
+                <p>
+                  There are many things are needed to start the Fast Food
+                  Business.
+                </p>
+                <div className="rate">
+                  <div className="add">
+                    <p>+</p>
+                  </div>
+                  <img src={rating} alt="rate" />
+                </div>
+              </div>
+              <div className="menu_card">
+                <img src={card6} alt="card img" />
+                <div className="title">
+                  <h3>Peach Melba dish</h3>
+                  <h3>15$</h3>
+                </div>
+                <p>
+                  There are many things are needed to start the Fast Food
+                  Business.
+                </p>
+                <div className="rate">
+                  <div className="add">
+                    <p>+</p>
+                  </div>
+                  <img src={rating} alt="rate" />
+                </div>
+              </div>
             </div>
+            <button>Learn More</button>
           </div>
         </div>
       </div>
