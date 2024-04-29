@@ -1,0 +1,24 @@
+.testimonial_contents {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 115px 0 120px;
+}
+.testimonial_contents h2 {
+  padding: 12px 0 24px;
+}
+.user_image {
+  padding: 72px 0 42px;
+}
+.rate_us {
+  padding: 20px 0 32px;
+  font-weight: 400;
+}
+.rate_us h6 {
+  padding-top: 8px;
+  font-size: 12px;
+}
+.rate_us h5 {
+  font-size: 16px;
+}
