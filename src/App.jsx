@@ -14,7 +14,7 @@ function App() {
       <Features />
       <About />
       {/* <MenuContents /> */}
-      {/* <Testimonial /> */}
+      <Testimonial />
     </div>
   );
 }

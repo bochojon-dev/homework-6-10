@@ -13,12 +13,20 @@
 }
 .rate_us {
   padding: 20px 0 32px;
+}
+userrank {
   font-weight: 400;
-}
-.rate_us h6 {
-  padding-top: 8px;
+  padding-top: 100px;
   font-size: 12px;
+  color: coral;
 }
-.rate_us h5 {
+username {
+  font-weight: 400;
   font-size: 16px;
+}
+.menu_par1 {
+  width: 750px;
+}
+.menu_par2 {
+  width: 506px;
 }
