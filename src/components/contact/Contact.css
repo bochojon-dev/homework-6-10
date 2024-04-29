@@ -1,0 +1,32 @@
+.contact_contents {
+  text-align: center;
+}
+.contact_contents h2 {
+  width: 750px;
+  margin: 0 auto;
+  padding: 15px 0 46px;
+}
+.contact {
+  background: #fbf1e7;
+  padding: 115px 0 120px;
+}
+.input {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+}
+.input button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 24px 60px;
+  border-radius: 10px;
+}
+.input input {
+  width: 750px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}

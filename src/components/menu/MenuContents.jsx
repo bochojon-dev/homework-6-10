@@ -23,7 +23,7 @@ export class MenuContents extends Component {
             </p>
             <div className="menu_cards">
               <div className="menu_card">
-                <img src={card1} alt="card img" />
+                <img className="card_image" src={card1} alt="card img" />
                 <div className="title">
                   <h3>Vegie Muffen</h3>
                   <h3>16$</h3>
