@@ -7,7 +7,7 @@ export class Hero extends Component {
     return (
       <div className="hero">
         <div className="container">
-          <div className="hero_contents">
+          <div id="Hero" className="hero_contents">
             <div className="hero_texts">
               <h3>Making time a good time by making food the good food.</h3>
               <p>

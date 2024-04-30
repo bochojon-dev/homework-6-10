@@ -1,0 +1,20 @@
+.footer {
+  background: #252525;
+  color: #fff;
+}
+.footer_contents {
+  display: flex;
+  justify-content: space-between;
+}
+.social_medias {
+  display: flex;
+  gap: 20px;
+}
+.footer_contents h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer_contents p {
+  font-size: 14px;
+  font-weight: 400;
+}

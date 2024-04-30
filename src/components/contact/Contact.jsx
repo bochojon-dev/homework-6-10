@@ -6,7 +6,7 @@ export class Contact extends Component {
     return (
       <div className="contact">
         <div className="container">
-          <div className="contact_contents">
+          <div id="Contact" className="contact_contents">
             <h4>CONTACT</h4>
             <h2>
               Food Stalls with Persons but also specialized equipment, Skills to

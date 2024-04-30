@@ -8,7 +8,7 @@ export class Testimonial extends Component {
     return (
       <div className="testimonial">
         <div className="container">
-          <div className="testimonial_contents">
+          <div id="Testimonial" className="testimonial_contents">
             <h4>TESTIMONIAL</h4>
             <h2>Making Food great again and again</h2>
             <p className="menu_par1">

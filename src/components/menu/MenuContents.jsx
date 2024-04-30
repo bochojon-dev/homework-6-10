@@ -13,7 +13,7 @@ export class MenuContents extends Component {
     return (
       <div className="menu">
         <div className="container">
-          <div className="menu_contents">
+          <div id="Menu" className="menu_contents">
             <h4>MENU</h4>
             <h2>Food Full of treaty Love</h2>
             <p className="description">

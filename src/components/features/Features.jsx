@@ -9,7 +9,7 @@ export class Features extends Component {
     return (
       <div className="features">
         <div className="container">
-          <div className="feature_contents">
+          <div id="Features" className="feature_contents">
             <h4>FEATURES</h4>
             <h2>Food with a New Passion</h2>
             <div className="feature_items">

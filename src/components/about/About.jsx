@@ -7,7 +7,7 @@ export class About extends Component {
     return (
       <div className="about">
         <div className="container">
-          <div className="about_contents">
+          <div id="About" className="about_contents">
             <img src={about} alt="about" />
             <div className="about_texts">
               <h4>About Us</h4>
