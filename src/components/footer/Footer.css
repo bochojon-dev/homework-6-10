@@ -5,6 +5,7 @@
 .footer_contents {
   display: flex;
   justify-content: space-between;
+  padding: 130px 0 100px;
 }
 .social_medias {
   display: flex;

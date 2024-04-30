@@ -13,6 +13,8 @@ export class Footer extends Component {
 
 export default Footer;
 
+//commentni ochganimda footer page korinmay qolyapti
+
 // import React, { Component } from "react";
 // import "../footer/Footer.css";
 // import logo from "../../assets/logo.svg";
