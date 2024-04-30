@@ -1,10 +1,10 @@
 .footer {
   background: #252525;
-  color: #fff;
+  color: #fff !important;
 }
 .footer_contents {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 130px 0 100px;
 }
 .social_medias {
@@ -14,8 +14,14 @@
 .footer_contents h4 {
   font-size: 18px;
   font-weight: 700;
+  color: #fff !important;
 }
 .footer_contents p {
   font-size: 14px;
   font-weight: 400;
+}
+.footer_contents ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
