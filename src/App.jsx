@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import MenuContents from "./components/menu/MenuContents";
 import Navbar from "./components/navbar/Navbar";
@@ -17,6 +18,7 @@ function App() {
       <MenuContents />
       <Testimonial />
       <Contact />
+      <Footer />
     </div>
   );
 }
